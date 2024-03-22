@@ -2,7 +2,7 @@ import argparse
 import gzip
 
 """
-python process_gff.py -i /path/to/your.gff or your.gff.gz -o /path/to/output.txt
+python process_gff.py -i /path/to/your.gff or your.gff.gz -o /path/to/output.txt -g genome_name
 """
 
 def parse_gff(gff_file_path, genome_name):
